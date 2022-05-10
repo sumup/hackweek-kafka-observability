@@ -17,4 +17,4 @@ scrape_configs:
     metrics_path: /v2/metrics/cloud/export
     params:
       "resource.kafka.id":
-        - lkc-7nrdj
+        - XXXX
