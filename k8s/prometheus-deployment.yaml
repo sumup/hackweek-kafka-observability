@@ -29,6 +29,17 @@ spec:
               mountPath: /etc/prometheus/
             - name: storage-volume
               mountPath: /prometheus/
+          env:
+            - name: USERNAME
+              valueFrom:
+                secretKeyRef:
+                  key: apikey
+                  name: kafka-secrets
+            - name: PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  key: apisecret
+                  name: kafka-secrets
       volumes:
         - name: config-volume
           configMap:
@@ -36,4 +47,3 @@ spec:
             name: prometheus-config
         - name: storage-volume
           emptyDir: {}
-      serviceAccountName: prometheus

@@ -11,19 +11,12 @@ data:
       scrape_interval: 5s
       evaluation_interval: 5s
     scrape_configs:
-      - job_name: 'kafka-metrics'
+      - job_name: 'prometheus'
         scrape_interval: 1m
         scrape_timeout: 1m
-        scheme: https
+        scheme: http
         static_configs:
-        - targets: ['api.telemetry.confluent.cloud']
-        basic_auth:
-          username: "$(USERNAME)"
-          password: "$(PASSWORD)"
-        metrics_path: /v2/metrics/cloud/export
-        params:
-          "resource.kafka.id":
-            -
+        - targets: ['localhost:9090']
         kubernetes_sd_configs:
           - api_server: null
             role: endpoints
