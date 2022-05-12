@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a677605-07e1-484b-817c-77b752a39378" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/k8s/prometheus-config1.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/k8s/prometheus-rbac.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/k8s/prometheus-service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/grafana-service.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard.json" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/k8s/grafana-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s/grafana-deployment.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/k8s/kafka-secrets.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s/kafka-secrets.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/k8s/prometheus-config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s/prometheus-config.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/k8s/prometheus-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s/prometheus-deployment.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/k8s/prometheus-config1.yaml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +55,7 @@
       <updated>1652178376377</updated>
       <workItem from="1652178378286" duration="4232000" />
       <workItem from="1652197150984" duration="2000000" />
-      <workItem from="1652263240556" duration="9831000" />
+      <workItem from="1652263240556" duration="17576000" />
     </task>
     <servers />
   </component>

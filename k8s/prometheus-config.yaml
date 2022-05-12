@@ -18,8 +18,8 @@ data:
         static_configs:
         - targets: ['api.telemetry.confluent.cloud']
         basic_auth:
-          username: "$(USERNAME)"
-          password: "$(PASSWORD)"
+          username:
+          password:
         metrics_path: /v2/metrics/cloud/export
         params:
           "resource.kafka.id":
